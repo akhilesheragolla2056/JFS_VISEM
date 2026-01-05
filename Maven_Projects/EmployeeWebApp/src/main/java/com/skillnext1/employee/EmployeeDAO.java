@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import com.skillnext1.db.DBConnection;
 
 public class EmployeeDAO {
-
+    
     public static void save(Employee emp) {
 
         String sql = "INSERT INTO employee(name, email, salary) VALUES (?, ?, ?)";
